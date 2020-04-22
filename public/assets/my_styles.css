@@ -5,6 +5,10 @@
   background-size: cover;
 }
 
+.download-apps {
+  background: url("/assets/images/download-hero.jpg") no-repeat center center;
+  background-size: cover;
+}
 
 /* Additional styles */
 
@@ -26,10 +30,19 @@ h1, h2, h3, h4, h5, h6  {
   padding-bottom: 150px;
 }
 
-/* Backgrounds for each section of the page */
 
-.download-apps {
-  background: url("/assets/images/download-hero.jpg") no-repeat center center;
-  background-size: cover;
+
+
+/* Miscellaneous */
+
+.spotlight-image {
+  width: 200px;
 }
 
+.user-image {
+  width: 50px;
+}
+
+.store-badge {
+  width: 200px;
+}
