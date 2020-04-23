@@ -46,3 +46,15 @@ h1, h2, h3, h4, h5, h6  {
 .store-badge {
   width: 200px;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media (max-width: 759px) {
+  .row {
+    flex-direction: column;
+  }
+}
